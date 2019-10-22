@@ -15,9 +15,9 @@ class Regions(Enum):
 
 #: Mapping from regions to servers
 _SERVER_URLS = {
-    Regions.NORTH_AMERICA: 'b2vapi.bmwgroup.us',
-    Regions.REST_OF_WORLD: 'b2vapi.bmwgroup.com',
-    Regions.CHINA: 'b2vapi.bmwgroup.cn:8592'
+    Regions.NORTH_AMERICA: 'myc-profile.bmwgroup.com',
+    Regions.REST_OF_WORLD: 'myc-profile.bmwgroup.com',
+    Regions.CHINA: 'myc-profile.bmwgroup.com'
 }
 
 
