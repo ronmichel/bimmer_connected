@@ -1,7 +1,7 @@
 """urls for different services and error code mapping."""
 
 AUTH_URL = 'https://customer.bmwgroup.com/gcdm/oauth/token'
-BASE_URL = 'https://{server}/webapi/v1'
+BASE_URL = 'https://{server}/api/gateway/brs/webapi/v1'
 
 VEHICLES_URL = BASE_URL + '/user/vehicles'
 VEHICLE_VIN_URL = VEHICLES_URL + '/{vin}'
